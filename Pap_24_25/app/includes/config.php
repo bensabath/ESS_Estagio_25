@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $user = 'root';
-$pass = 'rootpassword';
+$pass = '';
 $db = 'meubanco';
 $conn = mysqli_connect($host, $user, $pass, $db);
 mysqli_set_charset($conn, "utf8");
